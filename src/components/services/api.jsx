@@ -56,15 +56,15 @@ const fallbackSkills = [
 ];
 
 const fallbackProfile = {
-  name: "John Doe",
+  name: "Oujaber Ousama",
   title: "Full Stack Developer",
   bio: "Passionate developer with over 5 years of experience building web applications. Specialized in creating responsive, user-friendly interfaces and robust backend systems.",
-  location: "New York, USA",
-  email: "john.doe@example.com",
-  phone: "+1 123-456-7890",
-  github: "https://github.com/johndoe",
-  linkedin: "https://linkedin.com/in/johndoe",
-  twitter: "https://twitter.com/johndoe",
+  location: "Midelt, Morocco",
+  email: "username@example.com",
+  phone: "+212 6 01 44 21 09",
+  github: "https://github.com/username",
+  linkedin: "https://linkedin.com/in/username",
+  twitter: "https://twitter.com/username",
   avatar: "https://via.placeholder.com/150"
 };
 
