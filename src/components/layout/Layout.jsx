@@ -16,11 +16,11 @@ const Layout = ({ children, toggleTheme, theme }) => {
         console.error("Failed to fetch profile:", error);
         // Set a fallback profile if the API fails
         setProfile({
-          name: "John Doe",
+          name: "Oujaber Ousama",
           title: "Web Developer",
-          email: "john.doe@example.com",
-          github: "https://github.com/johndoe",
-          linkedin: "https://linkedin.com/in/johndoe"
+          email: "email@example.com",
+          github: "https://github.com/example",
+          linkedin: "https://linkedin.com/in/example"
         });
       } finally {
         setLoading(false);
