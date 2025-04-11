@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = 'http://localhost:8000/api';
+const API_URL = 'http://164.92.237.58/api';
 
 const fallbackProjects = [
   {
