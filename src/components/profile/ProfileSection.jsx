@@ -21,7 +21,7 @@ const ProfileSection = ({ profile }) => {
                 <span className="text-7xl">👨‍💻</span>
               </div>
             )}
-            <h2 className="text-2xl font-bold mb-1">{profile.name}</h2>
+            <h2 className="text-2xl font-bold mb-1">{profile.name || 'Ousama Oujaber'}</h2>
             <p className="text-primary-100 mb-6">{profile.title}</p>
             
             <div className="flex space-x-3 mb-6">
