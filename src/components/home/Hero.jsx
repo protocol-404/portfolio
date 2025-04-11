@@ -17,7 +17,7 @@ const Hero = ({ profile }) => {
             </span>
             
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 dark:text-white leading-tight">
-              Hi, I'm <span className="text-primary-600 dark:text-primary-500">{profile?.name?.split(' ')[0]}</span>
+              Hi, I'm <span className="text-primary-600 dark:text-primary-500">{profile?.name?.split(' ')[0] || 'Ousama'}</span>
               <br />
               {profile?.tagline || 'Creative Developer'}
             </h1>
