@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = 'http://dashboardp.ddns.net/api';
+const API_URL = 'https://dashboardp.ddns.net/api';
 
 const fallbackProjects = [
   {
